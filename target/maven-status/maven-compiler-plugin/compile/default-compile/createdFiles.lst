@@ -1,5 +1,6 @@
-me/dgpark/entity/ColumnCommentTestComment.class
-me/dgpark/App.class
-me/dgpark/Moja.class
-me/dgpark/entity/ColumnCommentTest.class
-me/dgpark/MagicMoja.class
+me\dgpark\entity\ColumnEnum.class
+me\dgpark\MagicMoja.class
+me\dgpark\Moja.class
+me\dgpark\entity\ColumnCommentTestComment.class
+me\dgpark\App.class
+me\dgpark\entity\ColumnCommentTest.class

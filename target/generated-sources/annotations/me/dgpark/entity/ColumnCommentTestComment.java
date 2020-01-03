@@ -3,17 +3,25 @@ package me.dgpark.entity;
 import java.lang.String;
 
 public class ColumnCommentTestComment {
-  public String comment7 = "ALTER TABLE `ENTITY_NAME` CHANGE `field_name7` `field_name7` NOT NULL BIT (255) COMMENT 'comment7'";
+  public String boolean1_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `boolean1` `boolean1` BIT COMMENT 'boolean1_comment'";
 
-  public String comment1 = "ALTER TABLE `ENTITY_NAME` CHANGE `field_name1` `field_name1` VARCHAR (255) COMMENT 'comment1'";
+  public String localDateTime_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `local_date_time` `local_date_time` DATETIME COMMENT 'localDateTime_comment'";
 
-  public String comment2 = "ALTER TABLE `ENTITY_NAME` CHANGE `field_name2` `field_name2` INT (255) COMMENT 'comment2'";
+  public String localDate_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `local_date` `local_date` DATE COMMENT 'localDate_comment'";
 
-  public String comment4 = "ALTER TABLE `ENTITY_NAME` CHANGE `field_name4` `field_name4` NOT NULL DATE (255) COMMENT 'comment4'";
+  public String string3_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `string3` `string3` LONGTEXT COMMENT 'string3_comment'";
 
-  public String comment3 = "ALTER TABLE `ENTITY_NAME` CHANGE `field_name3` `field_name3` NOT NULL BIGINT (255) COMMENT 'comment3'";
+  public String integer_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `integer` `integer` NOT NULL INT (11) COMMENT 'integer_comment'";
 
-  public String comment5 = "ALTER TABLE `ENTITY_NAME` CHANGE `field_name5` `field_name5` NOT NULL DATETIME (255) COMMENT 'comment5'";
+  public String double1_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `double1` `double1` DOUBLE COMMENT 'double1_comment'";
 
-  public String comment6 = "ALTER TABLE `ENTITY_NAME` CHANGE `field_name6` `field_name6` NOT NULL DOUBLE (255) COMMENT 'comment6'";
+  public String string2_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `string2` `string2` NOT NULL VARCHAR (500) COMMENT 'string2_comment'";
+
+  public String localTime_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `local_time` `local_time` TIME COMMENT 'localTime_comment'";
+
+  public String columnEnum_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `column_enum` `column_enum` VARCHAR (255) COMMENT 'columnEnum_comment'";
+
+  public String string1_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `string1` `string1` VARCHAR (255) COMMENT 'string1_comment'";
+
+  public String long1_comment = "ALTER TABLE `ENTITY_NAME` CHANGE `long1` `long1` BIGINT (20) COMMENT 'long1_comment'";
 }
