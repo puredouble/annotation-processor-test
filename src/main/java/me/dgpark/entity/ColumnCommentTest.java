@@ -49,4 +49,6 @@ public class ColumnCommentTest {
     @ColumnComment("columnEnum_comment")
     private ColumnEnum columnEnum;
 
+
+
 }

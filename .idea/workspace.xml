@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dcffab57-4079-4e93-b5a5-d7c5c76490b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dgpark/entity/ColumnEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="dcffab57-4079-4e93-b5a5-d7c5c76490b4" name="Default Changelist" comment="MARIADB 관련 column comment modify 기능 추가">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/dgpark/entity/AnotherEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/annotation-processor-test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/dgpark/entity/ColumnCommentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dgpark/entity/ColumnCommentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/me/dgpark/entity/ColumnCommentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/dgpark/entity/ColumnCommentTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/me/dgpark/entity/ColumnCommentTestComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/me/dgpark/entity/ColumnCommentTestComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/dgpark/MagicMoja.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/dgpark/MagicMoja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/me/dgpark/entity/ColumnCommentTestComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/me/dgpark/entity/ColumnCommentTestComment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
@@ -26,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -51,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -60,6 +54,7 @@
     <option name="myCommands">
       <command value="mvn clean package" />
       <command value="mvn clean install" />
+      <command value="mvn clean" />
       <command value="mvn clean compile" />
     </option>
   </component>
@@ -142,6 +137,14 @@
       <option name="presentableId" value="Default" />
       <updated>1577706860462</updated>
     </task>
+    <task id="LOCAL-00001" summary="MARIADB 관련 column comment modify 기능 추가">
+      <created>1578035258399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578035258399</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +157,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MARIADB 관련 column comment modify 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="MARIADB 관련 column comment modify 기능 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="745" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577712296374">
